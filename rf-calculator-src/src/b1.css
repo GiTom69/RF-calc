@@ -1,0 +1,20 @@
+/* ---- batch 1: BER chart, POI card ---- */
+.b1-berviz .viz-svg, .b1-poiviz .viz-svg { width: 100%; height: auto; max-width: 560px; }
+.b1-berviz .viz-row { margin-top: 0; }
+.b1-reqtable td, .b1-reqtable th { white-space: nowrap; }
+.b1-berviz .sect { overflow-x: auto; }
+.b1-wins { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 10px; margin: 10px 0; align-items: start; }
+.b1-win { border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; background: var(--panel2); min-width: 0; }
+.b1-winhead { display: flex; gap: 6px; align-items: center; margin-bottom: 6px; }
+.b1-winno { font-weight: 700; color: var(--accent-t); font-size: 12px; white-space: nowrap; }
+.b1-winhead input, .b1-winhead select, .b1-addwin select {
+  min-width: 0; padding: 3px 6px; border-radius: 5px; border: 1px solid var(--border); background: var(--input); }
+.b1-winhead input { flex: 1 1 80px; }
+.b1-winhead select { flex: 1 1 150px; }
+.b1-win .frow { grid-template-columns: minmax(0, 1fr) 112px 62px; }
+.b1-wininfo { margin-top: 6px; font-size: 12px; color: var(--muted); }
+.b1-warn { color: var(--warn); margin-top: 2px; }
+.b1-addwin { display: flex; gap: 8px; align-items: center; align-self: center; }
+.b1-addwin select { flex: 1 1 auto; }
+.b1-addwin .btn { white-space: nowrap; }
+.b1-warns .msg { margin-top: 4px; }

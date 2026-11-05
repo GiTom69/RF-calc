@@ -1,0 +1,6 @@
+/* batch 2 */
+.b2-chart { margin-top: 12px; max-width: 100%; overflow: hidden; }
+.b2-chart svg.viz-svg { max-width: 100%; height: auto; }
+.b2-tbl tr.b2-want td { background: var(--calc-bg); }
+.b2-tbl tr.b2-hit td { color: var(--warn); }
+.b2-pn input { min-width: 90px; }

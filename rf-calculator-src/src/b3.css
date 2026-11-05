@@ -1,0 +1,8 @@
+/* batch 3 */
+.b3-blocks td { vertical-align: top; }
+.b3-blocks select.b3-type { padding: 3px 4px; border-radius: 5px; border: 1px solid var(--border); background: var(--input); max-width: 220px; }
+.b3-params { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.b3-param { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; }
+.b3-param input { width: 84px; min-width: 0; text-align: right; }
+.b3-plabel { color: var(--muted); white-space: nowrap; }
+.b3-punit { color: var(--muted); white-space: nowrap; }
